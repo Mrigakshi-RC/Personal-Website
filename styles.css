@@ -1,0 +1,174 @@
+@media (max-width: 28.75em) {
+    .projects-section-header {
+      font-size: 4rem;
+    }
+  }
+  :root{
+    --text-color:#C5C6C7;
+  }
+
+  html{
+    scroll-behavior:smooth;
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    overflow-x:hidden;
+  }
+  #welcome-section{
+    height:100vw;
+  }
+  #navbar{
+    display:flex;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    justify-content:flex-end;
+    background-color:#0B0C10;
+    
+  }
+  .nav-list{
+    display:flex;
+  
+  }
+  .nav-list li{
+    display:block;
+    color:#C5C6C7;
+    margin-right:60px;
+  }
+  a{
+    text-decoration:none;
+  }
+  #welcome-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:120%;
+    height:100vh;
+    margin-left:-10%;
+    background-image: linear-gradient(62deg, #1F2833 0%, #0B0C10 100%);
+  }
+  .hello{
+    text-align:center;
+  }
+  #mrig{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size:180%;
+    color:#66FCF1;
+  }
+  #dev{
+    margin-top:-10px;
+    color:var(--text-color);
+    font-weight: 200;
+    font-style: italic;
+  }
+  #projects{
+    text-align:center;
+    padding:10px;
+    background-color:#45A29E;
+    width:100%;
+    margin-left:-10px;
+    padding-bottom:20px;
+  }
+  #project-header{
+    max-width:640px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:120%;
+    border-bottom:0.2rem solid black;
+    margin-top:50px;
+  }
+  .projects-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap:4rem;
+    width: 100%;
+    max-width: 1280px;
+    max-height:400px;
+    margin:0 auto;
+    margin-bottom:6rem;
+    margin-top:70px;
+  }
+  .project-image{
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+  }
+  img{
+    display:block;
+  }
+  .project-image{
+    object-fit: cover;
+  }
+  #blackpink{
+    width:105%;
+  }
+  #landing{
+    height:50.5%;
+    margin-left:25px;
+  }
+  #london{
+    height:50.5%;
+    width:110%;
+  }
+  .project-title {
+      font-size: 1.5rem;
+      color:white;
+      text-align:center;
+  }
+  .text-container{
+    margin:0 auto;
+    background-color:grey;
+    height:45px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #text-container3{
+    width:110%;
+  }
+  #text-container2{
+    width:91%;
+    margin-left:24px;
+  }
+  #text-container1{
+    width:105%;
+  }
+  #end-line{
+    margin-top:-50px;
+  }
+  #contact{
+    background-color:#1F2833;
+    margin-top:-45px;
+    margin-left:-50px;
+    width:110%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:100px 0;
+  }
+  .contact-header{
+    font-family:Raleway;
+    display:block;
+  }
+  .contact-info{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1080px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    gap:60px;
+  }
+  .contact-header,.contact-info{
+    margin-left:-30px;
+    color:#66FCF1;
+  }
+  .contact-detail {
+      color:white;
+      text-shadow: 2px 2px 1px #1f1f1f;
+  }
